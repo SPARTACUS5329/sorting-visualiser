@@ -1,0 +1,22 @@
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  display: inline;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.bar {
+  width: 3px;
+}
+
+.initial {
+  background-color: aqua;
+}
+
+.checking {
+  background-color: blueviolet;
+}

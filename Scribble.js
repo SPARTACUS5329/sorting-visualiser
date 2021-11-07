@@ -1,0 +1,10 @@
+let mergeResultArray = [1, 2];
+let mainArray = [2, 1, 4, 3];
+let l = mergeResultArray.length;
+let tempArr = [...mergeResultArray];
+let copyArr = [...mainArray];
+let subArr = copyArr.slice(l, mainArray.length);
+tempArr.push(...subArr);
+console.log(tempArr);
+console.log(mainArray);
+console.log(mergeResultArray);
